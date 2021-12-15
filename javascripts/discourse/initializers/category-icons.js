@@ -128,9 +128,9 @@ export default {
         }
         html += `<span class="category-name" ${categoryDir}>${categoryName}</span></span>`;
 
-        if (opts.topicCount && categoryStyle !== "box") {
-          html += buildTopicCount(opts.topicCount);
-        }
+//        if (opts.topicCount && categoryStyle !== "box") {
+//          html += buildTopicCount(opts.topicCount);
+//        }
 
         if (href) {
           href = ` href="${href}" `;
